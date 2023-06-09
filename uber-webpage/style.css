@@ -1,0 +1,49 @@
+* {
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+}
+.navBtns:hover {
+  background-color: rgb(84, 84, 84) !important;
+  border-radius: 30px !important;
+  transition: 0.1s !important;
+}
+a {
+  cursor: pointer !important;
+}
+.mainBgImg {
+  background-image: url("images/bg-img.jfif");
+  height: 92vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bannerImg {
+  background-image: url("images/banner-img.jfif");
+  width: 100%;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 992px) {
+  .custom-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.visitHelp:hover {
+  border-bottom: 2px solid white;
+}
+.socialLinks {
+  cursor: pointer;
+}
+.socialLinks:hover {
+  background-color: #546c7f;
+  border-radius: 6px;
+}
+.descriptionInput {
+  display: none;
+}

@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Earn Money by Driving or Get a Ride Now | Uber Pakistan</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- Font-awsome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container-fluid bg-black">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand text-white fs-4" href="#">Uber</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown mx-2">
+                    <a
+                      class="navBtns nav-link dropdown-toggle text-white"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Company
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">About Us</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Our offerings</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">How uber works?</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Global Citizenship</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Newsroom</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Investor relations</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Blog</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Careers</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a
+                      class="navBtns nav-link text-white"
+                      aria-current="page"
+                      href="#"
+                      >Safety</a
+                    >
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="navBtns nav-link text-white" href="#">Help</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item mx-2">
+                    <a
+                      class="navBtns nav-link text-white"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <i
+                        class="fa-solid fa-globe me-2"
+                        style="color: #ffffff"
+                      ></i
+                      >EN
+                    </a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a
+                      class="navBtns nav-link text-white"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <i class="fa-solid fa-grid"></i>Products
+                    </a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a
+                      class="navBtns nav-link text-white"
+                      aria-current="page"
+                      href="#"
+                      >Login</a
+                    >
+                  </li>
+                  <li class="nav-item mx-2">
+                    <button
+                      class="btn text-black bg-white rounded-pill px-3 py-2"
+                      type="submit"
+                    >
+                      Sign up
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Main Content -->
+    <div class="mainBgImg container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="bg-white m-5 w-100 pb-3">
+              <div class="d-flex justify-content-around align-items-center">
+                <div class="py-3 text-center">
+                  <img
+                    src="https://www.uber-assets.com/image/upload/v1558389718/assets/8e/33c8c0-f7e9-467c-924b-c70232943a47/original/Earn-filled.svg"
+                    class="mt-4 mb-2"
+                    alt=""
+                  />
+                  <h6 style="cursor: pointer" onclick="driveBg()">
+                    Drive or <br />
+                    deliver
+                  </h6>
+                </div>
+                <div class="py-3 text-center">
+                  <img
+                    src="images/restaurant-outlined.svg"
+                    class="my-2"
+                    alt=""
+                  />
+                  <h6 style="cursor: pointer" onclick="eatBg()">Eat</h6>
+                </div>
+                <div class="py-3 text-center">
+                  <img
+                    src="images/car-front-outlined.svg"
+                    class="my-2"
+                    alt=""
+                  />
+                  <h6 style="cursor: pointer" onclick="rideBg()">Ride</h6>
+                </div>
+              </div>
+              <hr class="text-black" />
+              <!-- Inner Content box -->
+              <div class="px-5">
+                <h1 class="descriptionHeading fw-bold display-5">
+                  Get in the driver's seat and get paid
+                </h1>
+                <p class="descriptionText my-3">
+                  Drive on the platform with the largest network of active
+                  riders.
+                </p>
+                <div class="descriptionInput">
+                  <div class="input-group mb-3">
+                    <input
+                      style="background-color: #f6f6f6"
+                      type="text"
+                      class="form-control border-0 rounded-0 py-3"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-default"
+                      placeholder="Enter pickup location"
+                    />
+                  </div>
+                  <div class="input-group mb-3">
+                    <input
+                      style="background-color: #f6f6f6"
+                      type="text"
+                      class="form-control border-0 rounded-0 py-3"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-default"
+                      placeholder="Enter destination"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="descriptionBtn btn bg-black text-white my-3 px-4 py-2"
+                >
+                  Sign up to drive
+                </button>
+                <a
+                  href="#"
+                  class="descriptionLink d-inline-block text-decoration-none my-4 border-bottom text-black pb-1"
+                  >Learn more about driving and delivering</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner -->
+    <div class="bannerImg container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="m-5 py-4 pb-5">
+              <h1 class="fw-bold">
+                The Uber you know, reimagined for business
+              </h1>
+              <p>
+                A platform for managing global rides and meals, and local
+                deliveries, for companies of any size.
+              </p>
+              <button class="btn bg-black text-white my-3 px-4 py-2 mb-sm-5">
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Safety Cards -->
+    <div class="container">
+      <div class="row m-5">
+        <h1 class="fw-bold pb-4">Focused on safety, wherever you go</h1>
+        <div class="col">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- Drive a car card -->
+            <div class="col">
+              <div class="card border-0">
+                <img
+                  src="images/drive-a-car.jfif"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body ps-0">
+                  <h5 class="card-title">Our commitment to your safety</h5>
+                  <p class="card-text">
+                    With every safety feature and every standard in our
+                    Community Guidelines, we're committed to helping to create a
+                    safe environment for our users.
+                  </p>
+                  <div>
+                    <a
+                      href="#"
+                      class="d-inline-block text-decoration-none me-4 my-4 border-bottom text-black pb-1"
+                      >Read about our Community Guidelines
+                    </a>
+                    <a
+                      href="#"
+                      class="d-inline-block text-decoration-none my-4 border-bottom text-black pb-1"
+                      >See all safety features</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Traffic card -->
+            <div class="col">
+              <div class="card border-0">
+                <img src="images/traffic.jfif" class="card-img-top" alt="..." />
+                <div class="card-body ps-0">
+                  <h5 class="card-title">Setting 10,000+ cities in motion</h5>
+                  <p class="card-text">
+                    The app is available in thousands of cities worldwide, so
+                    you can request a ride even when you're far from home.
+                  </p>
+                  <div>
+                    <a
+                      href="#"
+                      class="d-inline-block text-decoration-none me-4 my-4 border-bottom text-black pb-1"
+                      >View all cities
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- small-cards -->
+    <div class="container custom-container">
+      <div class="row m-5">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card border-0">
+            <div class="card-body">
+              <img src="images/about-us.svg" class="mb-3" alt="..." />
+              <h5 class="card-title">About us</h5>
+              <p class="card-text">
+                Find out how we started, what drives us, and how we're
+                reimagining how the world moves.
+              </p>
+              <a
+                href="#"
+                class="d-inline-block text-decoration-none me-4 my-4 border-bottom text-black pb-1"
+                >Learn more about Uber
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card border-0">
+            <div class="card-body">
+              <img src="images/newsroom.svg" class="mb-3" alt="..." />
+              <h5 class="card-title">Newsroom</h5>
+              <p class="card-text">
+                See announcements about our latest releases, initiatives, and
+                partnerships.
+              </p>
+              <a
+                href="#"
+                class="d-inline-block text-decoration-none me-4 my-4 border-bottom text-black pb-1"
+                >Go to Newsroom
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card border-0">
+            <div class="card-body">
+              <img src="images/home-outlined.svg" class="mb-3" alt="..." />
+              <h5 class="card-title">Global Citizenship</h5>
+              <p class="card-text">
+                Read about our commitment to making a positive impact in the
+                cities we serve.
+              </p>
+              <a
+                href="#"
+                class="d-inline-block text-decoration-none me-4 my-4 border-bottom text-black pb-1"
+                >See our partnerships
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Download uber banner -->
+    <div class="container-fluid py-3" style="background-color: #f6f6f6">
+      <div class="container">
+        <div class="row m-5">
+          <h1 class="fw-bold my-4">There's more to love in the apps</h1>
+          <div class="col">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card rounded-0 p-2">
+                  <div
+                    class="card-body d-flex justify-content-between align-items-center"
+                  >
+                    <img
+                      src="images/uber-with-arrow.jfif"
+                      width="150px"
+                      alt="..."
+                    />
+                    <h4 class="card-title fw-bold">Download the Driver app</h4>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-0 p-2">
+                  <div
+                    class="card-body d-flex justify-content-between align-items-center"
+                  >
+                    <img src="images/uber.jfif" width="150px" alt="..." />
+                    <h4 class="card-title fw-bold">Download the Uber app</h4>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- signup-banner -->
+    <div class="container">
+      <div class="row m-5">
+        <div class="col-lg-6 col-md-6">
+          <div
+            class="d-flex justify-content-between align-items-center border-bottom border-3"
+          >
+            <h1 class="fw-bold pb-3">Sign up to drive</h1>
+            <i class="fa-solid fa-arrow-right fa-beat fs-1 pb-3"></i>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div
+            class="d-flex justify-content-between align-items-center border-bottom border-3 ms-3"
+          >
+            <h1 class="fw-bold pb-3">Sign up to ride</h1>
+            <i class="fa-solid fa-arrow-right fa-beat fs-1 pb-3"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid bg-black">
+      <div class="container text-white">
+        <div class="row m-5 mb-0">
+          <span>
+            <p class="fs-3 mt-5" style="cursor: pointer">Uber</p>
+            <p
+              class="fs-5 my-4 visitHelp pb-5 d-inline-block"
+              style="cursor: pointer"
+            >
+              Visit help center
+            </p>
+          </span>
+          <div class="col-lg-3 col-md-6">
+            <h4>Companny</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Our offerings</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Newsroom</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Investors</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Careers</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >AI</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Gift cards</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4>Products</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Ride</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Drive</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Eat</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Uber for business</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Uber Freight</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4>Global Citizenship</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Safety</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Diversity and Inclusion</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4>Travel</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Airports</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none fs-5 my-2 text-white"
+                  >Cities</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Social Links -->
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="d-flex justify-content-start align-items-center">
+                <i class="socialLinks fa-brands fa-facebook me-5 p-3"></i>
+                <i class="socialLinks fa-brands fa-twitter mx-5 p-3"></i>
+                <i class="socialLinks fa-brands fa-youtube mx-5 p-3"></i>
+                <i class="socialLinks fa-brands fa-linkedin mx-5 p-3"></i>
+                <i class="socialLinks fa-brands fa-instagram mx-5 p-3"></i>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div>
+                <ul
+                  class="d-flex justify-content-end align-items-center mt-2 list-unstyled"
+                >
+                  <li class="nav-item mx-2">
+                    <a
+                      class="navBtns nav-link text-white"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <i
+                        class="fa-solid fa-globe me-3"
+                        style="color: #ffffff"
+                      ></i
+                      >English
+                    </a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a
+                      class="navBtns nav-link text-white"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <i class="fa-solid fa-location-dot me-3"></i>Lahore
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Download Links -->
+          <div class="row">
+            <div class="col">
+              <div class="my-5">
+                <img src="images/play-store.svg" width="140px" alt="" />
+                <img src="images/app-store.svg" width="140px" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- Terms & conditions -->
+          <div class="row pb-5">
+            <div class="col-lg-8">
+              <p>© 2023 Uber Technologies Inc.</p>
+            </div>
+            <div class="col-lg-4">
+              <ul
+                class="d-flex justify-content-end align-items-center mt-2 list-unstyled"
+              >
+                <li class="nav-item mx-2">
+                  <a
+                    class="navBtns nav-link text-white"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Privacy
+                  </a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a
+                    class="navBtns nav-link text-white"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Acessability
+                  </a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a
+                    class="navBtns nav-link text-white"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Terms
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Js -->
+    <script src="script.js"></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
